@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "bundles",
+   "args": [
+    "520",
+    "6"
+   ],
+   "expect": "The 520 jugs at 6 jugs a bundle take 87 bundles, the last bundle holding 4 jugs."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "520",
+    "45"
+   ],
+   "expect": "The 520 jugs at 45 jugs a week last 11 full weeks with 25 jugs left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "87",
+    "18.50",
+    "520"
+   ],
+   "expect": "The 87 bundles at $18.50 a bundle come to $1609.50, $3.10 a jug."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "520",
+    "8"
+   ],
+   "expect": "The 520 jugs at 8 jugs a minute take 65 minutes, 1 hour 5 minutes."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 jug at 1 jug a bundle takes 1 bundle, the last bundle holding 1 jug."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "516",
+    "6"
+   ],
+   "expect": "The 516 jugs at 6 jugs a bundle take 86 bundles, the last bundle holding 6 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 jugs at 1000 jugs a bundle take 1000 bundles, the last bundle holding 1000 jugs."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 jug at 1 jug a week lasts 1 full week with 0 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "495",
+    "45"
+   ],
+   "expect": "The 495 jugs at 45 jugs a week last 11 full weeks with 0 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 jugs at 100000 jugs a week last 10 full weeks with 0 jugs left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 bundle at $0.01 a bundle comes to $0.01, $0.01 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 bundles at $999.99 a bundle come to $99999000.00, $100.00 a jug."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 jug at 1 jug a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 jugs at 1 jug a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 jugs at 100 jugs a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "846856",
+    "380"
+   ],
+   "expect": "The 846856 jugs at 380 jugs a bundle take 2229 bundles, the last bundle holding 216 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "49701",
+    "732"
+   ],
+   "expect": "The 49701 jugs at 732 jugs a bundle take 68 bundles, the last bundle holding 657 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "287451",
+    "672"
+   ],
+   "expect": "The 287451 jugs at 672 jugs a bundle take 428 bundles, the last bundle holding 507 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "225510",
+    "163"
+   ],
+   "expect": "The 225510 jugs at 163 jugs a bundle take 1384 bundles, the last bundle holding 81 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "608598",
+    "745"
+   ],
+   "expect": "The 608598 jugs at 745 jugs a bundle take 817 bundles, the last bundle holding 678 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "679213",
+    "91"
+   ],
+   "expect": "The 679213 jugs at 91 jugs a bundle take 7464 bundles, the last bundle holding 80 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "993656",
+    "112"
+   ],
+   "expect": "The 993656 jugs at 112 jugs a bundle take 8872 bundles, the last bundle holding 104 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "336713",
+    "115"
+   ],
+   "expect": "The 336713 jugs at 115 jugs a bundle take 2928 bundles, the last bundle holding 108 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "714481",
+    "878"
+   ],
+   "expect": "The 714481 jugs at 878 jugs a bundle take 814 bundles, the last bundle holding 667 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "577223",
+    "173"
+   ],
+   "expect": "The 577223 jugs at 173 jugs a bundle take 3337 bundles, the last bundle holding 95 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "146482",
+    "589"
+   ],
+   "expect": "The 146482 jugs at 589 jugs a bundle take 249 bundles, the last bundle holding 410 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "136809",
+    "316"
+   ],
+   "expect": "The 136809 jugs at 316 jugs a bundle take 433 bundles, the last bundle holding 297 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "564713",
+    "24"
+   ],
+   "expect": "The 564713 jugs at 24 jugs a bundle take 23530 bundles, the last bundle holding 17 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "710646",
+    "988"
+   ],
+   "expect": "The 710646 jugs at 988 jugs a bundle take 720 bundles, the last bundle holding 274 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "907186",
+    "984"
+   ],
+   "expect": "The 907186 jugs at 984 jugs a bundle take 922 bundles, the last bundle holding 922 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "312858",
+    "552"
+   ],
+   "expect": "The 312858 jugs at 552 jugs a bundle take 567 bundles, the last bundle holding 426 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "420298",
+    "373"
+   ],
+   "expect": "The 420298 jugs at 373 jugs a bundle take 1127 bundles, the last bundle holding 300 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "962174",
+    "178"
+   ],
+   "expect": "The 962174 jugs at 178 jugs a bundle take 5406 bundles, the last bundle holding 84 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "131255",
+    "863"
+   ],
+   "expect": "The 131255 jugs at 863 jugs a bundle take 153 bundles, the last bundle holding 79 jugs."
+  },
+  {
+   "fn": "bundles",
+   "args": [
+    "948327",
+    "14"
+   ],
+   "expect": "The 948327 jugs at 14 jugs a bundle take 67738 bundles, the last bundle holding 9 jugs."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "500736",
+    "76219"
+   ],
+   "expect": "The 500736 jugs at 76219 jugs a week last 6 full weeks with 43422 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "937952",
+    "28021"
+   ],
+   "expect": "The 937952 jugs at 28021 jugs a week last 33 full weeks with 13259 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "491777",
+    "29269"
+   ],
+   "expect": "The 491777 jugs at 29269 jugs a week last 16 full weeks with 23473 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "478303",
+    "27409"
+   ],
+   "expect": "The 478303 jugs at 27409 jugs a week last 17 full weeks with 12350 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "953371",
+    "2185"
+   ],
+   "expect": "The 953371 jugs at 2185 jugs a week last 436 full weeks with 711 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "558569",
+    "41794"
+   ],
+   "expect": "The 558569 jugs at 41794 jugs a week last 13 full weeks with 15247 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "855626",
+    "77250"
+   ],
+   "expect": "The 855626 jugs at 77250 jugs a week last 11 full weeks with 5876 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "774369",
+    "80084"
+   ],
+   "expect": "The 774369 jugs at 80084 jugs a week last 9 full weeks with 53613 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "668866",
+    "16788"
+   ],
+   "expect": "The 668866 jugs at 16788 jugs a week last 39 full weeks with 14134 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "217568",
+    "66562"
+   ],
+   "expect": "The 217568 jugs at 66562 jugs a week last 3 full weeks with 17882 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "434098",
+    "46562"
+   ],
+   "expect": "The 434098 jugs at 46562 jugs a week last 9 full weeks with 15040 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "731926",
+    "99403"
+   ],
+   "expect": "The 731926 jugs at 99403 jugs a week last 7 full weeks with 36105 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "946508",
+    "92604"
+   ],
+   "expect": "The 946508 jugs at 92604 jugs a week last 10 full weeks with 20468 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "585473",
+    "14855"
+   ],
+   "expect": "The 585473 jugs at 14855 jugs a week last 39 full weeks with 6128 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "402126",
+    "40422"
+   ],
+   "expect": "The 402126 jugs at 40422 jugs a week last 9 full weeks with 38328 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "800773",
+    "55685"
+   ],
+   "expect": "The 800773 jugs at 55685 jugs a week last 14 full weeks with 21183 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "135791",
+    "99672"
+   ],
+   "expect": "The 135791 jugs at 99672 jugs a week last 1 full week with 36119 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "547954",
+    "40755"
+   ],
+   "expect": "The 547954 jugs at 40755 jugs a week last 13 full weeks with 18139 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "922721",
+    "18460"
+   ],
+   "expect": "The 922721 jugs at 18460 jugs a week last 49 full weeks with 18181 jugs left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "636709",
+    "15605"
+   ],
+   "expect": "The 636709 jugs at 15605 jugs a week last 40 full weeks with 12509 jugs left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "62855",
+    "25.49",
+    "559771"
+   ],
+   "expect": "The 62855 bundles at $25.49 a bundle come to $1602173.95, $2.86 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "66821",
+    "36.56",
+    "668947"
+   ],
+   "expect": "The 66821 bundles at $36.56 a bundle come to $2442975.76, $3.65 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "40528",
+    "496.89",
+    "560005"
+   ],
+   "expect": "The 40528 bundles at $496.89 a bundle come to $20137957.92, $35.96 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "32599",
+    "170.76",
+    "922584"
+   ],
+   "expect": "The 32599 bundles at $170.76 a bundle come to $5566605.24, $6.03 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "40002",
+    "257.8",
+    "983531"
+   ],
+   "expect": "The 40002 bundles at $257.80 a bundle come to $10312515.60, $10.49 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "97431",
+    "188.89",
+    "373234"
+   ],
+   "expect": "The 97431 bundles at $188.89 a bundle come to $18403741.59, $49.31 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1099",
+    "980.83",
+    "515181"
+   ],
+   "expect": "The 1099 bundles at $980.83 a bundle come to $1077932.17, $2.09 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "71548",
+    "813.57",
+    "140745"
+   ],
+   "expect": "The 71548 bundles at $813.57 a bundle come to $58209306.36, $413.58 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "31231",
+    "748.58",
+    "727578"
+   ],
+   "expect": "The 31231 bundles at $748.58 a bundle come to $23378901.98, $32.13 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "26618",
+    "254.93",
+    "424747"
+   ],
+   "expect": "The 26618 bundles at $254.93 a bundle come to $6785726.74, $15.98 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "15257",
+    "971.86",
+    "489679"
+   ],
+   "expect": "The 15257 bundles at $971.86 a bundle come to $14827668.02, $30.28 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "53047",
+    "805.04",
+    "372903"
+   ],
+   "expect": "The 53047 bundles at $805.04 a bundle come to $42704956.88, $114.52 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "68309",
+    "83.03",
+    "280312"
+   ],
+   "expect": "The 68309 bundles at $83.03 a bundle come to $5671696.27, $20.23 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "53277",
+    "551.67",
+    "357392"
+   ],
+   "expect": "The 53277 bundles at $551.67 a bundle come to $29391322.59, $82.24 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "15949",
+    "905.3",
+    "156625"
+   ],
+   "expect": "The 15949 bundles at $905.30 a bundle come to $14438629.70, $92.19 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "45131",
+    "260.6",
+    "338201"
+   ],
+   "expect": "The 45131 bundles at $260.60 a bundle come to $11761138.60, $34.78 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "25723",
+    "694.17",
+    "697182"
+   ],
+   "expect": "The 25723 bundles at $694.17 a bundle come to $17856134.91, $25.61 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "47211",
+    "445.92",
+    "772530"
+   ],
+   "expect": "The 47211 bundles at $445.92 a bundle come to $21052329.12, $27.25 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "96450",
+    "289.93",
+    "209656"
+   ],
+   "expect": "The 96450 bundles at $289.93 a bundle come to $27963748.50, $133.38 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "86475",
+    "265.45",
+    "379401"
+   ],
+   "expect": "The 86475 bundles at $265.45 a bundle come to $22954788.75, $60.50 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "60034",
+    "252.11",
+    "285011"
+   ],
+   "expect": "The 60034 bundles at $252.11 a bundle come to $15135171.74, $53.10 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "49930",
+    "886.31",
+    "177164"
+   ],
+   "expect": "The 49930 bundles at $886.31 a bundle come to $44253458.30, $249.79 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "17915",
+    "687.12",
+    "698136"
+   ],
+   "expect": "The 17915 bundles at $687.12 a bundle come to $12309754.80, $17.63 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "68503",
+    "493.84",
+    "37964"
+   ],
+   "expect": "The 68503 bundles at $493.84 a bundle come to $33829521.52, $891.09 a jug."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "5733",
+    "945.82",
+    "26913"
+   ],
+   "expect": "The 5733 bundles at $945.82 a bundle come to $5422386.06, $201.48 a jug."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "665459",
+    "35"
+   ],
+   "expect": "The 665459 jugs at 35 jugs a minute take 19014 minutes, 316 hours 54 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "128950",
+    "17"
+   ],
+   "expect": "The 128950 jugs at 17 jugs a minute take 7586 minutes, 126 hours 26 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "504874",
+    "64"
+   ],
+   "expect": "The 504874 jugs at 64 jugs a minute take 7889 minutes, 131 hours 29 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "645949",
+    "66"
+   ],
+   "expect": "The 645949 jugs at 66 jugs a minute take 9788 minutes, 163 hours 8 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "794801",
+    "44"
+   ],
+   "expect": "The 794801 jugs at 44 jugs a minute take 18064 minutes, 301 hours 4 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "853093",
+    "31"
+   ],
+   "expect": "The 853093 jugs at 31 jugs a minute take 27520 minutes, 458 hours 40 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "676534",
+    "93"
+   ],
+   "expect": "The 676534 jugs at 93 jugs a minute take 7275 minutes, 121 hours 15 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "749290",
+    "73"
+   ],
+   "expect": "The 749290 jugs at 73 jugs a minute take 10265 minutes, 171 hours 5 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "2636",
+    "78"
+   ],
+   "expect": "The 2636 jugs at 78 jugs a minute take 34 minutes, 0 hours 34 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "63402",
+    "96"
+   ],
+   "expect": "The 63402 jugs at 96 jugs a minute take 661 minutes, 11 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "397899",
+    "98"
+   ],
+   "expect": "The 397899 jugs at 98 jugs a minute take 4061 minutes, 67 hours 41 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "724421",
+    "33"
+   ],
+   "expect": "The 724421 jugs at 33 jugs a minute take 21953 minutes, 365 hours 53 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "192459",
+    "48"
+   ],
+   "expect": "The 192459 jugs at 48 jugs a minute take 4010 minutes, 66 hours 50 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "533504",
+    "86"
+   ],
+   "expect": "The 533504 jugs at 86 jugs a minute take 6204 minutes, 103 hours 24 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "780786",
+    "60"
+   ],
+   "expect": "The 780786 jugs at 60 jugs a minute take 13014 minutes, 216 hours 54 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "856553",
+    "6"
+   ],
+   "expect": "The 856553 jugs at 6 jugs a minute take 142759 minutes, 2379 hours 19 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "646302",
+    "54"
+   ],
+   "expect": "The 646302 jugs at 54 jugs a minute take 11969 minutes, 199 hours 29 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "96285",
+    "100"
+   ],
+   "expect": "The 96285 jugs at 100 jugs a minute take 963 minutes, 16 hours 3 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "90921",
+    "73"
+   ],
+   "expect": "The 90921 jugs at 73 jugs a minute take 1246 minutes, 20 hours 46 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "bundles",
+   [
+    "0",
+    "6"
+   ]
+  ],
+  [
+   "bundles",
+   [
+    "1000001",
+    "6"
+   ]
+  ],
+  [
+   "bundles",
+   [
+    "2.5",
+    "6"
+   ]
+  ],
+  [
+   "bundles",
+   [
+    "520",
+    "0"
+   ]
+  ],
+  [
+   "bundles",
+   [
+    "520",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "45"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "520",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "520",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "520",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "45"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "18.50",
+    "520"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "18.50",
+    "520"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "87",
+    "0",
+    "520"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "87",
+    "18.505",
+    "520"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "87",
+    "18.50",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "time",
+   [
+    "520",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "520",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "520",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
